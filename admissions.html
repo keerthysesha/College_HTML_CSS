@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/jpeg" href="images/seclogo.jpeg" >
+    <title>Admission - Saveetha Engineering College</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+        <img src="images/sec_logo.png" alt="Logo" width="600px">
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="academics.html">Academics</a>
+            <a href="admissions.html">Admissions</a>
+            <a href="gallery.html">Gallery</a>
+        </nav>
+</header>
+<div class="head">
+    <div class="contain">
+        <h2>Admission Form</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone"><br><br>
+            
+            <label for="course">Course Interested In:</label><br>
+            <select id="course" name="course">
+                <option value="computer-science">Computer Science</option>
+                <option value="mathematics">Mathematics</option>
+                <option value="english">English</option>
+                <option value="sociology">Sociology</option>
+                <option value="economics">Economics</option>
+                <option value="business-management">Business Management</option>
+            </select><br><br>
+            
+            <label for="message">Additional Information:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2024 Saveetha Engineering College. All rights reserved.</p>
+    </footer>
+</body>
+</html>

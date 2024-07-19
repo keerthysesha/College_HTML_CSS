@@ -1,0 +1,117 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('sse_college.webp'); /* Ensure you have the correct path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(189, 182, 182, 0.8);
+    padding: 10px;
+    color: white;
+}
+
+nav {
+    display: flex;
+    padding-left: 300px;
+    flex-grow: 1;
+    justify-content: flex-start; /* Align nav links to the left */
+}
+
+nav a {
+    color: blue;
+    margin: 0 10px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.logo img {
+    padding: 10px;
+}
+
+.course {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+}
+
+.course h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.course-info {
+    line-height: 1.6;
+}
+
+.course-info h2 {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.course-info p {
+    color: #777;
+}
+
+.course-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.course-info ul li {
+    margin-bottom: 5px;
+}
+
+.course-info table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.course-info table th, .course-info table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.course-info table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+footer {
+    background-color: rgba(51, 51, 51, 0.8);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .computer {
+        width: 90%;
+    }
+}
